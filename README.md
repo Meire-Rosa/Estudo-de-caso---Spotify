@@ -137,6 +137,9 @@ Também foram identificadas faixas de grande alcance em gêneros como Indie pop,
 A análise evidencia que o gênero musical está associado a diferenças na distribuição de streams, mas que o desempenho individual das músicas também desempenha um papel importante na identificação de sucessos. Desse modo, está descrito, a seguir, as músicas que possuem maior quantidade de streams quando analisadas do ponto de vista da mediana dos gêneros mais significativos e temos disponível também, a tabela 'Top5' com as as cinco músicas que apresentam maior quantidade de streams em seu respectivo grupo musical.
 
 
+<img width="846" height="606" alt="image" src="https://github.com/user-attachments/assets/e865f9df-6940-4c7a-acdd-5ceea46e9157" />
+
+
 ##### Análise dos gêneros musicais mais significativos (com mais de 20 músicas) que possuem maior quantidade mediana de streams
 
 Pop: o bigode superior termina em ~2,55 bi, e há outliers em ~2,7, ~2,9 (dois pontos quase sobrepostos) e ~3,57 bi. Confirma a assimetria positiva: a mediana é ~0,39 bi, mas o gênero contém as músicas mais ouvidas da base. A distância entre a mediana e o topo mostra o quanto poucos hits concentram os streams. Nesse caso, o gênero musical por si só já é suficiente para gerar alta quantidade de streams. Segue as músicas com maiores quantidades de streams:
