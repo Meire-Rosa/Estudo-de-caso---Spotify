@@ -55,8 +55,8 @@ Para investigar essa relação, foram utilizadas as correlações de Pearson e S
 
 | Métrica | Resultado |
 |---|---:|
-| Correlação de Pearson | 0,7885 |
-| Correlação de Spearman | 0,8291 |
+| Correlação de Pearson | 0,79 |
+| Correlação de Spearman | 0,83 |
 
 **Interpretação:**
 
