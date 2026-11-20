@@ -110,21 +110,21 @@ A análise foi realizada considerando a presença das músicas em playlists dess
 | 3 plataformas | 807 |
 | **Total** | **842** |
 
-Aproximadamente 95,84% das músicas estavam presentes nas três plataformas.
+Aproximadamente 95.84% das músicas estavam presentes nas três plataformas.
 
 **Correlação de Spearman com os streams do Spotify:**
 
 | Plataforma | Correlação |
 |---|---:|
-| Spotify | 0,8291 |
-| Deezer | 0,7577 |
-| Apple Music | 0,6723 |
+| Spotify | 0.8291 |
+| Deezer | 0.7577 |
+| Apple Music | 0.6723 |
 
 **Interpretação:**
 
 A quantidade de playlists nas três plataformas apresentou associação positiva com o volume de streams no Spotify, sendo a associação mais forte observada para as playlists do próprio Spotify.
 
-Entretanto, a quantidade total de plataformas apresentou correlação muito fraca com os streams (Spearman = 0,0757).
+Entretanto, a quantidade total de plataformas apresentou correlação muito fraca com os streams (Spearman = 0.0757).
 
 Esse resultado pode ser explicado pela baixa variação entre os grupos, já que a grande maioria das músicas estava presente nas três plataformas.
 
@@ -143,9 +143,17 @@ Foram consideradas as seguintes variáveis:
 
 Para as variáveis categóricas, foram calculadas estatísticas descritivas, incluindo quantidade de músicas, média, mediana e desvio padrão dos streams.
 
-Também foi utilizado o teste não paramétrico de Kruskal-Wallis para investigar diferenças entre os grupos.
+#### 4.4.1 Análise por número de artistas
 
-#### Análise por gênero musical
+A análise da relação entre a quantidade de artistas participantes de uma música e seu volume de streams apresentou uma correlação de Spearman de 0.13577, indicando uma associação positiva muito fraca entre as variáveis.
+
+Embora a análise descritiva por meio do boxplot tenha indicado medianas de streams menores nos grupos com maior quantidade de artistas, a correlação observada não demonstra uma associação monotônica expressiva.
+
+Para reduzir a influência de grupos com pouquíssimas observações, foi realizada uma análise considerando músicas com até cinco artistas. Essa decisão permite avaliar o comportamento dos grupos com maior representatividade na amostra, mas deve ser considerada uma análise complementar.
+
+Os resultados sugerem que a quantidade de artistas, isoladamente, não apresenta uma associação relevante com o volume acumulado de streams. 
+
+#### 4.4.2 Análise por gênero musical
 
 Após investigar as diferenças na distribuição de streams entre os gêneros musicais, foi realizada uma análise complementar para identificar as músicas com maior volume de reproduções dentro de cada categoria.
 
