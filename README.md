@@ -68,6 +68,27 @@ A correlação de Spearman apresentou valor superior ao de Pearson, reforçando 
 
 É importante destacar que correlação não significa causalidade. A inclusão em playlists pode contribuir para aumentar as reproduções, mas músicas que já apresentam maior popularidade também podem ter mais oportunidades de inclusão em playlists.
 
+### 4.2. Análise da relação entre chats e streams
+
+**Pergunta de negócio:** Músicas que entram nos charts (rankings) do Spotify têm mais streams que as que não entram?
+
+Para investigar essa relação, foram utilizadas as correlações de Pearson e Spearman entre as variáveis - `in_apple_charts`, `in_deezer_chats`, `in_shazam_charts`,  `in_spotfy_chats`,  e `streams`.
+
+**Resultados encontrados:**
+
+| Métrica | Correlação de Pearson | Correlação de Spearman|
+|---|---|---:|
+| `in_apple_charts` | 0.32| 0.34 |
+| `in_deezer_chats` |0.23| 0.25 |
+| `in_shazam_charts` |0.02| 0.22 |
+| `in_spotfy_chats`| 0.24|0.27|
+
+**Interpretação:**
+
+Os resultados indicam uma associação fraca positiva entre os charts de todas as plataformas analisadas e o volume de streams do Spotify.
+
+Isso sugere que músicas que entram no chats do Spotfy não tem relação com a quantidade de Streams. 
+
 ### 4.3. Análise da presença em múltiplas plataformas
 
 **Pergunta de negócio:** A presença de uma música em diferentes plataformas de streaming está associada a um maior volume de streams no Spotify?
