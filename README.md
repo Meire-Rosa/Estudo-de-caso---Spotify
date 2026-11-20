@@ -163,7 +163,7 @@ Os resultados demonstraram que músicas com volumes expressivos de streams estã
 
 Também foram identificadas faixas de grande alcance em gêneros como Indie pop, Indie rock, EDM, R&B, Pop rock, Reggaeton e K-pop.
 
-A análise evidencia que o gênero musical está associado a diferenças na distribuição de streams, mas que o desempenho individual das músicas também desempenha um papel importante na identificação de sucessos. Desse modo, está descrito, a seguir, as músicas que possuem maior quantidade de streams quando analisadas do ponto de vista da mediana dos gêneros mais significativos e temos disponível também, a tabela 'Top5' com as as cinco músicas que apresentam maior quantidade de streams em seu respectivo grupo musical.
+A análise evidencia que o gênero musical está associado a diferenças na distribuição de streams, mas que o desempenho individual das músicas também desempenha um papel importante na identificação de sucessos. Desse modo, está descrito, a seguir, as músicas que possuem maior quantidade de streams quando analisadas do ponto de vista da mediana dos gêneros mais significativos e temos disponível também, a tabela 'Top5GenerosMusicais' com as as cinco músicas que apresentam maior quantidade de streams em seu respectivo grupo musical.
 
 
 <img width="846" height="606" alt="image" src="https://github.com/user-attachments/assets/e865f9df-6940-4c7a-acdd-5ceea46e9157" />
