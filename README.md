@@ -200,10 +200,7 @@ No Role Modelz — J. Cole Can't Hold Us — Macklemore, Ryan Lewis e Ray Dalton
 - Quevedo: Bzrp Music Sessions, Vol. 52 - Bizarrap, Quevedo La Jumpa - Arcangel, Bad Bunny
 
 
-#### Análise por país
-
-
-### 4.5. Análise do momento de lançamento
+### 4.4 Análise por país
 
 Para comparar os streams entre países, aplicou-se o teste de Kruskal-Wallis, não paramétrico e adequado à forte assimetria da variável. Como esse teste apenas indica se existe diferença em algum ponto, utilizou-se em seguida o teste post hoc de Dunn com correção de Holm, que identifica quais pares de países diferem. O país refere-se à origem da música, e os rótulos inconsistentes (USA, MX e PR) foram unificados antes da análise. Como o Kruskal-Wallis compara distribuições, os resultados são descritos como tendência a streams maiores ou menores, e não como diferença de medianas.
 
@@ -211,8 +208,7 @@ A análise foi feita em três recortes.
 
 Todos os países (Figura 1). Neste recorte, a mediana de streams varia de aproximadamente 0,05 a 1 bilhão, sem padrão regional evidente. Os valores mais extremos, como os da Noruega e da Irlanda, vêm de países com apenas 1 ou 2 músicas na base. Como medianas e testes baseados em amostras tão pequenas são instáveis e pouco poderosos, este recorte tem caráter apenas descritivo, e os testes estatísticos não foram aplicados a ele. Esses países foram excluídos nos recortes seguintes.
 
-
-<img width="990" height="416" alt="image" src="https://github.com/user-attachments/assets/0056581c-c6e8-483b-91f5-a1b8cfdc62c4" />
+<img width="985" height="451" alt="image" src="https://github.com/user-attachments/assets/f645e172-d62c-41aa-a002-cd81cfe819b6" />
 
 
 Países com mais de 10 músicas (Figura 2). O teste de Kruskal-Wallis (k = 10 países; n = 759 músicas) indicou diferença significativa na distribuição de streams (H = 65,34; p < 0,001), com tamanho de efeito médio (η² = 0,075). Isso significa que o país está associado a cerca de 7,5% da variação nos postos de streams, e que a maior parte da variabilidade vem de outros fatores. O teste de Dunn com correção de Holm mostrou que as músicas do Reino Unido tendem a ter mais streams do que as da Coreia do Sul, Brasil, México, Argentina e Estados Unidos (esta última diferença, com p = 0,028, não se manteve no recorte seguinte). Porto Rico difere de Coreia do Sul, Brasil e México, e a Austrália difere de Brasil e Coreia do Sul. A Coreia do Sul também difere dos Estados Unidos. Os demais pares não apresentaram diferença significativa. O destaque da Austrália deve ser lido com cautela, pois ela tem apenas 14 músicas e não difere dos países de posição intermediária.
@@ -235,6 +231,8 @@ O que fazer com essa informação:
 
 Usar o país como um critério entre vários, e não como o principal, ao avaliar investimento em artistas ou lançamentos. Tratar com cautela os países com poucas músicas na base (como a Austrália, com 14 faixas): os resultados são indícios, não certezas. Não concluir que músicas brasileiras ou sul-coreanas “têm pior desempenho”. Os números medem o alcance internacional das faixas, e muitos artistas desses países têm público forte e fiel em seus mercados locais. Aprofundar a análise antes de decisões de maior valor, incluindo idioma, gênero e ano de lançamento, por exemplo com um modelo de regressão sobre o logaritmo dos streams, para separar o efeito do país do efeito desses outros fatores.
 
+
+### 4.5. Análise do momento de lançamento
 **Pergunta de negócio:** O momento de lançamento (ano e mês) influencia o volume de streams acumulado?
 
 Esta etapa investiga a relação entre o período de lançamento e a quantidade de reproduções acumuladas pelas músicas.
