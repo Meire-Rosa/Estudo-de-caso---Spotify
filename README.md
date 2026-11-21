@@ -171,51 +171,69 @@ A análise evidencia que o gênero musical está associado a diferenças na dist
 
 ##### Análise dos gêneros musicais mais significativos (com mais de 20 músicas) que possuem maior quantidade mediana de streams
 
-Pop: o bigode superior termina em ~2,55 bi, e há outliers em ~2,7, ~2,9 (dois pontos quase sobrepostos) e ~3,57 bi. Confirma a assimetria positiva: a mediana é ~0,39 bi, mas o gênero contém as músicas mais ouvidas da base. A distância entre a mediana e o topo mostra o quanto poucos hits concentram os streams. Nesse caso, o gênero musical por si só já é suficiente para gerar alta quantidade de streams. Segue as músicas com maiores quantidades de streams:
+- Pop: o bigode superior termina em ~2,55 bi, e há outliers em ~2,7, ~2,9 (dois pontos quase sobrepostos) e ~3,57 bi. Confirma a assimetria positiva: a mediana é ~0,39 bi, mas o gênero contém as músicas mais ouvidas da base. A distância entre a mediana e o topo mostra o quanto poucos hits concentram os streams. Nesse caso, o gênero musical por si só já é suficiente para gerar alta quantidade de streams. Segue as músicas com maiores quantidades de streams:
 
-STAY (with Justin Bieber) - Justin Bieber, The Kid Laroi Someone You Loved - Lewis Capaldi Shape of You - Ed Sheeran Circles - Post Malone Dance Monkey - Tones and I Hip-hop: tem um único outlier isolado em 2,8 bi, muito acima do bigode (1,05 bi). Esse ponto sozinho é o maior destaque do gênero e provavelmente é uma música específica de enorme sucesso. Trata-se do sucesso What It Is. Minha sugestão, nesse caso, é sempre que possível incluir essa música nas playlists. Sua presença irá aumentar a quantidade de streams.
+- STAY (with Justin Bieber) - Justin Bieber, The Kid Laroi Someone You Loved - Lewis Capaldi Shape of You - Ed Sheeran Circles - Post Malone Dance Monkey - Tones and I Hip-hop: tem um único outlier isolado em 2,8 bi, muito acima do bigode (1,05 bi). Esse ponto sozinho é o maior destaque do gênero e provavelmente é uma música específica de enorme sucesso. Trata-se do sucesso What It Is. Minha sugestão, nesse caso, é sempre que possível incluir essa música nas playlists. Sua presença irá aumentar a quantidade de streams.
 
-R&B: outliers em ~1,95, ~2,08 e ~2,56 bi. O gênero tem mais “hits” do que o primeiro gráfico sugeria. As músicas que geram mais stream são:
+- R&B: outliers em ~1,95, ~2,08 e ~2,56 bi. O gênero tem mais “hits” do que o primeiro gráfico sugeria. As músicas que geram mais stream são:
 
-Starboy - The Weeknd - Daft Punk The Hills - The Weeknd All of Me - John Legend. Minha sugestão, nesse caso, é sempre que possível incluir essas músicas nas playlists. Sua presença irá aumentar a quantidade de streams. Indie pop: apenas dois outliers (~1,8 e ~2,56 bi). É o gênero com a melhor mediana e poucos casos extremos, ou seja, o desempenho é mais sustentado, não dependente de poucos hits. As músicas que apresentam maior quantidade de streams são:
+- Starboy - The Weeknd - Daft Punk The Hills - The Weeknd All of Me - John Legend. Minha sugestão, nesse caso, é sempre que possível incluir essas músicas nas playlists. Sua presença irá aumentar a quantidade de streams. Indie pop: apenas dois outliers (~1,8 e ~2,56 bi). É o gênero com a melhor mediana e poucos casos extremos, ou seja, o desempenho é mais sustentado, não dependente de poucos hits. As músicas que apresentam maior quantidade de streams são:
 
-Another Love - Tom Odell Heat Waves - Glass Animals
+- Another Love - Tom Odell Heat Waves - Glass Animals
 
-Heavy metal: é o mais surpreendente. Tem a menor mediana (~0,15 bi), mas muitos outliers (cerca de 8 pontos, entre ~1,35 e ~1,95 bi). Isso sugere que a maioria das músicas tem baixo alcance, mas há um grupo de clássicos muito fortes que são:
+- Heavy metal: é o mais surpreendente. Tem a menor mediana (~0,15 bi), mas muitos outliers (cerca de 8 pontos, entre ~1,35 e ~1,95 bi). Isso sugere que a maioria das músicas tem baixo alcance, mas há um grupo de clássicos muito fortes que são:
 
-No Role Modelz, J. Cole. Can't Hold Us (feat. Ray Dalton) - Ray Dalton, Ryan Lewis, Macklemore Without Me - Eminem The Real Slim Shady -Eminem Lose Yourself - Soundtrack Version - Eminem Gangsta's Paradise - Coolio, L.V. INDUSTRY BABY (feat. Jack Harlow) Jack Harlow, Lil Nas X Till I Collapse Eminem, Nate Dogg HUMBLE. Kendrick Lamar
+- No Role Modelz, J. Cole. Can't Hold Us (feat. Ray Dalton) - Ray Dalton, Ryan Lewis, Macklemore Without Me - Eminem The Real Slim Shady -Eminem Lose Yourself - Soundtrack Version - Eminem Gangsta's Paradise - Coolio, L.V. INDUSTRY BABY (feat. Jack Harlow) Jack Harlow, Lil Nas X Till I Collapse Eminem, Nate Dogg HUMBLE. Kendrick Lamar
 
 Obs: Aqui temos uma questão com relação a base de dados. As músicas:
 
 No Role Modelz — J. Cole Can't Hold Us — Macklemore, Ryan Lewis e Ray Dalton Without Me — Eminem The Real Slim Shady — Eminem Lose Yourself — Eminem Gangsta's Paradise — Coolio e L.V. HUMBLE. — Kendrick Lamar são predominantemente associadas ao Hip-hop/Rap, não ao Heavy metal.
 
-Reggaeton: vários outliers agrupados entre ~1,25 e ~1,45 bi e um em ~1,75 bi. Isso indica um conjunto de músicas de sucesso, não um caso isolado. Segue as músicas com maiores streams:
+- Reggaeton: vários outliers agrupados entre ~1,25 e ~1,45 bi e um em ~1,75 bi. Isso indica um conjunto de músicas de sucesso, não um caso isolado. Segue as músicas com maiores streams:
 
-Me Porto Bonito - Chencho Corleone, Bad Bunny Danza Kuduro - Don Omar, Lucenzo Yonaguni - Bad Bunny Pepas - Farruko Dakiti - Bad Bunny, Jhay Cortez Callaita Bad Bunny, Tainy K-pop: outliers em ~0,87, ~1,07, ~1,14 e ~1,7 bi, bem acima da caixa (que termina em ~0,32 bi). Caixa estreita com vários hits distantes. Segue as músicas com maiores streams:
+- Me Porto Bonito - Chencho Corleone, Bad Bunny Danza Kuduro - Don Omar, Lucenzo Yonaguni - Bad Bunny Pepas - Farruko Dakiti - Bad Bunny, Jhay Cortez Callaita Bad Bunny, Tainy K-pop: outliers em ~0,87, ~1,07, ~1,14 e ~1,7 bi, bem acima da caixa (que termina em ~0,32 bi). Caixa estreita com vários hits distantes. Segue as músicas com maiores streams:
 
-Boy With Luv (feat. Halsey) - Halsey, BTS MONEY - Lisa Butter - BTS Dynamite - BTS
+- Boy With Luv (feat. Halsey) - Halsey, BTS MONEY - Lisa Butter - BTS Dynamite - BTS
 
-Latin trap: a caixa é a mais compacta, com dois outliers (~0,54 e ~1,36 bi). É o gênero mais homogêneo. As músicas com maiores streams são:
+- Latin trap: a caixa é a mais compacta, com dois outliers (~0,54 e ~1,36 bi). É o gênero mais homogêneo. As músicas com maiores streams são:
 
-Quevedo: Bzrp Music Sessions, Vol. 52 - Bizarrap, Quevedo La Jumpa - Arcangel, Bad Bunny
+- Quevedo: Bzrp Music Sessions, Vol. 52 - Bizarrap, Quevedo La Jumpa - Arcangel, Bad Bunny
 
 
 #### Análise por país
 
-O teste de Kruskal-Wallis apresentou:
-
-| Estatística | Resultado |
-|---|---:|
-| H | 66,1083 |
-| Valor-p | < 0,001 |
-
-O resultado indica evidências de diferenças estatisticamente significativas entre as distribuições de streams dos grupos de países.
-
-A análise descritiva foi realizada considerando quantidade de músicas, média e mediana de streams por país.
-
-**Próxima etapa:** aplicação do teste post-hoc de Dunn, com correção de Holm, para identificar quais países apresentam diferenças entre si.
 
 ### 4.5. Análise do momento de lançamento
+
+Para comparar os streams entre países, aplicou-se o teste de Kruskal-Wallis, não paramétrico e adequado à forte assimetria da variável. Como esse teste apenas indica se existe diferença em algum ponto, utilizou-se em seguida o teste post hoc de Dunn com correção de Holm, que identifica quais pares de países diferem. O país refere-se à origem da música, e os rótulos inconsistentes (USA, MX e PR) foram unificados antes da análise. Como o Kruskal-Wallis compara distribuições, os resultados são descritos como tendência a streams maiores ou menores, e não como diferença de medianas.
+
+A análise foi feita em três recortes.
+
+Todos os países (Figura 1). Neste recorte, a mediana de streams varia de aproximadamente 0,05 a 1 bilhão, sem padrão regional evidente. Os valores mais extremos, como os da Noruega e da Irlanda, vêm de países com apenas 1 ou 2 músicas na base. Como medianas e testes baseados em amostras tão pequenas são instáveis e pouco poderosos, este recorte tem caráter apenas descritivo, e os testes estatísticos não foram aplicados a ele. Esses países foram excluídos nos recortes seguintes.
+
+
+<img width="990" height="416" alt="image" src="https://github.com/user-attachments/assets/0056581c-c6e8-483b-91f5-a1b8cfdc62c4" />
+
+
+Países com mais de 10 músicas (Figura 2). O teste de Kruskal-Wallis (k = 10 países; n = 759 músicas) indicou diferença significativa na distribuição de streams (H = 65,34; p < 0,001), com tamanho de efeito médio (η² = 0,075). Isso significa que o país está associado a cerca de 7,5% da variação nos postos de streams, e que a maior parte da variabilidade vem de outros fatores. O teste de Dunn com correção de Holm mostrou que as músicas do Reino Unido tendem a ter mais streams do que as da Coreia do Sul, Brasil, México, Argentina e Estados Unidos (esta última diferença, com p = 0,028, não se manteve no recorte seguinte). Porto Rico difere de Coreia do Sul, Brasil e México, e a Austrália difere de Brasil e Coreia do Sul. A Coreia do Sul também difere dos Estados Unidos. Os demais pares não apresentaram diferença significativa. O destaque da Austrália deve ser lido com cautela, pois ela tem apenas 14 músicas e não difere dos países de posição intermediária.
+
+
+<img width="987" height="448" alt="image" src="https://github.com/user-attachments/assets/3d7316ab-b1fb-4e22-91d8-b6b28c28c10e" />
+
+Países com mais de 5 músicas (Figura 3). Este recorte, que inclui 15 países (n = 796 músicas), serviu como análise de sensibilidade. O teste de Kruskal-Wallis permaneceu significativo (H = 76,06; p < 0,001), com tamanho de efeito semelhante ao anterior (η² = 0,079). No teste de Dunn, mantiveram-se significativas as diferenças entre o Reino Unido e Coreia do Sul, Brasil, México e Argentina, entre Porto Rico e Coreia do Sul e Brasil, entre a Austrália e Brasil e Coreia do Sul, e entre a Coreia do Sul e os Estados Unidos. As diferenças entre Reino Unido e Estados Unidos e entre Porto Rico e México, significativas com mais de 10 músicas, deixaram de sê-lo, e devem ser interpretadas como evidência frágil. Surgiu ainda uma diferença entre Índia e Reino Unido, que merece cautela por se basear em apenas 9 músicas indianas. Conclui-se que o padrão principal é robusto ao corte de amostra mínima adotado.
+
+<img width="989" height="468" alt="image" src="https://github.com/user-attachments/assets/413c1b92-945c-4c0d-ad74-025c5958325f" />
+
+
+Limitações. O país representa a origem da música, e os streams refletem audiência global. Assim, os resultados descrevem o alcance internacional das faixas de cada país, e não o comportamento dos ouvintes locais. A possível repetição de artistas entre as músicas pode violar a suposição de independência do teste. Além disso, fatores como idioma, gênero musical e ano de lançamento não foram controlados. A análise mostra associação, não causalidade.
+
+Conclusão. Desse modo, a análise mostra que o país de origem de uma música influencia, em parte, o quanto ela é ouvida no Spotify. Músicas do Reino Unido, de Porto Rico e da Austrália tendem a acumular mais streams, enquanto as da Coreia do Sul e do Brasil tendem a acumular menos. Os Estados Unidos e o Canadá ficam numa posição intermediária.
+
+Esse efeito, porém, é moderado: o país explica apenas cerca de 8% da diferença entre as músicas. Os outros 92% dependem de fatores que esta análise não mediu. Por isso, o país sozinho não deve ser usado para prever o sucesso de uma música.
+
+O que fazer com essa informação:
+
+Usar o país como um critério entre vários, e não como o principal, ao avaliar investimento em artistas ou lançamentos. Tratar com cautela os países com poucas músicas na base (como a Austrália, com 14 faixas): os resultados são indícios, não certezas. Não concluir que músicas brasileiras ou sul-coreanas “têm pior desempenho”. Os números medem o alcance internacional das faixas, e muitos artistas desses países têm público forte e fiel em seus mercados locais. Aprofundar a análise antes de decisões de maior valor, incluindo idioma, gênero e ano de lançamento, por exemplo com um modelo de regressão sobre o logaritmo dos streams, para separar o efeito do país do efeito desses outros fatores.
 
 **Pergunta de negócio:** O momento de lançamento (ano e mês) influencia o volume de streams acumulado?
 
