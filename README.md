@@ -208,18 +208,15 @@ A análise foi feita em três recortes.
 
 Todos os países (Figura 1). Neste recorte, a mediana de streams varia de aproximadamente 0,05 a 1 bilhão, sem padrão regional evidente. Os valores mais extremos, como os da Noruega e da Irlanda, vêm de países com apenas 1 ou 2 músicas na base. Como medianas e testes baseados em amostras tão pequenas são instáveis e pouco poderosos, este recorte tem caráter apenas descritivo, e os testes estatísticos não foram aplicados a ele. Esses países foram excluídos nos recortes seguintes.
 
-<img width="985" height="451" alt="image" src="https://github.com/user-attachments/assets/f645e172-d62c-41aa-a002-cd81cfe819b6" />
-
+<img width="987" height="442" alt="image" src="https://github.com/user-attachments/assets/33eca80c-19da-4734-8594-ee2f7502194c" />
 
 Países com mais de 10 músicas (Figura 2). O teste de Kruskal-Wallis (k = 10 países; n = 759 músicas) indicou diferença significativa na distribuição de streams (H = 65,34; p < 0,001), com tamanho de efeito médio (η² = 0,075). Isso significa que o país está associado a cerca de 7,5% da variação nos postos de streams, e que a maior parte da variabilidade vem de outros fatores. O teste de Dunn com correção de Holm mostrou que as músicas do Reino Unido tendem a ter mais streams do que as da Coreia do Sul, Brasil, México, Argentina e Estados Unidos (esta última diferença, com p = 0,028, não se manteve no recorte seguinte). Porto Rico difere de Coreia do Sul, Brasil e México, e a Austrália difere de Brasil e Coreia do Sul. A Coreia do Sul também difere dos Estados Unidos. Os demais pares não apresentaram diferença significativa. O destaque da Austrália deve ser lido com cautela, pois ela tem apenas 14 músicas e não difere dos países de posição intermediária.
 
-
-<img width="987" height="448" alt="image" src="https://github.com/user-attachments/assets/3d7316ab-b1fb-4e22-91d8-b6b28c28c10e" />
+<img width="975" height="446" alt="image" src="https://github.com/user-attachments/assets/a78087a5-4b6c-4e0b-a460-b9a0f3fc126f" />
 
 Países com mais de 5 músicas (Figura 3). Este recorte, que inclui 15 países (n = 796 músicas), serviu como análise de sensibilidade. O teste de Kruskal-Wallis permaneceu significativo (H = 76,06; p < 0,001), com tamanho de efeito semelhante ao anterior (η² = 0,079). No teste de Dunn, mantiveram-se significativas as diferenças entre o Reino Unido e Coreia do Sul, Brasil, México e Argentina, entre Porto Rico e Coreia do Sul e Brasil, entre a Austrália e Brasil e Coreia do Sul, e entre a Coreia do Sul e os Estados Unidos. As diferenças entre Reino Unido e Estados Unidos e entre Porto Rico e México, significativas com mais de 10 músicas, deixaram de sê-lo, e devem ser interpretadas como evidência frágil. Surgiu ainda uma diferença entre Índia e Reino Unido, que merece cautela por se basear em apenas 9 músicas indianas. Conclui-se que o padrão principal é robusto ao corte de amostra mínima adotado.
 
-<img width="989" height="468" alt="image" src="https://github.com/user-attachments/assets/413c1b92-945c-4c0d-ad74-025c5958325f" />
-
+<img width="984" height="458" alt="image" src="https://github.com/user-attachments/assets/cdf50719-61fc-4345-b436-04aaca53dad7" />
 
 Limitações. O país representa a origem da música, e os streams refletem audiência global. Assim, os resultados descrevem o alcance internacional das faixas de cada país, e não o comportamento dos ouvintes locais. A possível repetição de artistas entre as músicas pode violar a suposição de independência do teste. Além disso, fatores como idioma, gênero musical e ano de lançamento não foram controlados. A análise mostra associação, não causalidade.
 
