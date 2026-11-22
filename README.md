@@ -68,26 +68,24 @@ A correlação de Spearman apresentou valor superior ao de Pearson, reforçando 
 
 É importante destacar que correlação não significa causalidade. A inclusão em playlists pode contribuir para aumentar as reproduções, mas músicas que já apresentam maior popularidade também podem ter mais oportunidades de inclusão em playlists.
 
-### 4.2. Análise da relação entre chats e streams
+### 4.2. Análise da relação entre charts e streams
 
 **Pergunta de negócio:** Músicas que entram nos charts (rankings) do Spotify têm mais streams que as que não entram?
 
-Para investigar essa relação, foram utilizadas as correlações de Pearson e Spearman entre as variáveis - `in_apple_charts`, `in_deezer_chats`, `in_shazam_charts`,  `in_spotfy_chats`,  e `streams`.
+Para investigar essa relação, foram utilizadas as correlações de Pearson e Spearman entre as variáveis - `in_apple_charts`, `in_deezer_charts`, `in_shazam_charts`,  `in_spotfy_charts`,  e `streams`.
 
 **Resultados encontrados:**
 
 | Métrica | Correlação de Pearson | Correlação de Spearman|
 |---|---|---:|
 | `in_apple_charts` | 0.32| 0.34 |
-| `in_deezer_chats` |0.23| 0.25 |
+| `in_deezer_charts` |0.23| 0.25 |
 | `in_shazam_charts` |0.02| 0.22 |
-| `in_spotfy_chats`| 0.24|0.27|
+| `in_spotfy_charts`| 0.24|0.27|
 
 **Interpretação:**
 
-Os resultados indicam uma associação fraca positiva entre os charts de todas as plataformas analisadas e o volume de streams do Spotify.
-
-Isso sugere que músicas que entram no chats do Spotfy não tem relação com a quantidade de Streams. 
+Na análise dos charts, as correlações são positivas, mas variam de muito fracas a fracas.  Isso sugere que músicas que entram no charts do Spotfy apresentam uma associação linear ou monotônica fraca com o streams, conforme a métrica utilizada.  
 
 ### 4.3. Análise da presença em múltiplas plataformas
 
@@ -187,7 +185,7 @@ A análise evidencia que o gênero musical está associado a diferenças na dist
 
 Obs: Aqui temos uma questão com relação a base de dados. As músicas:
 
-No Role Modelz — J. Cole Can't Hold Us — Macklemore, Ryan Lewis e Ray Dalton Without Me — Eminem The Real Slim Shady — Eminem Lose Yourself — Eminem Gangsta's Paradise — Coolio e L.V. HUMBLE. — Kendrick Lamar são predominantemente associadas ao Hip-hop/Rap, não ao Heavy metal.
+No Role Modelz — J. Cole Can't Hold Us — Macklemore, Ryan Lewis e Ray Dalton Without Me — Eminem The Real Slim Shady — Eminem Lose Yourself — Eminem Gangsta's Paradise — Coolio e L.V. HUMBLE. — Kendrick Lamar são predominantemente associadas ao Hip-hop/Rap, não ao Heavy metal - Isso gera uma limitação da classificação. 
 
 - Reggaeton: vários outliers agrupados entre ~1,25 e ~1,45 bi e um em ~1,75 bi. Isso indica um conjunto de músicas de sucesso, não um caso isolado. Segue as músicas com maiores streams:
 
@@ -212,7 +210,7 @@ Neste recorte, a mediana de streams varia de aproximadamente 0,05 a 1 bilhão, s
 <img width="987" height="442" alt="image" src="https://github.com/user-attachments/assets/33eca80c-19da-4734-8594-ee2f7502194c" />
 
 - Países com mais de 10 músicas (Figura 2).
-O teste de Kruskal-Wallis (k = 10 países; n = 759 músicas) indicou diferença significativa na distribuição de streams (H = 65,34; p < 0,001), com tamanho de efeito médio (η² = 0,075). Isso significa que o país está associado a cerca de 7,5% da variação nos postos de streams, e que a maior parte da variabilidade vem de outros fatores. O teste de Dunn com correção de Holm mostrou que as músicas do Reino Unido tendem a ter mais streams do que as da Coreia do Sul, Brasil, México, Argentina e Estados Unidos (esta última diferença, com p = 0,028, não se manteve no recorte seguinte). Porto Rico difere de Coreia do Sul, Brasil e México, e a Austrália difere de Brasil e Coreia do Sul. A Coreia do Sul também difere dos Estados Unidos. Os demais pares não apresentaram diferença significativa. O destaque da Austrália deve ser lido com cautela, pois ela tem apenas 14 músicas e não difere dos países de posição intermediária.
+O teste de Kruskal-Wallis (k = 10 países; n = 759 músicas) indicou diferença significativa na distribuição de streams (H = 65,34; p < 0,001), com tamanho de efeito médio (η² = 0,075). Isso significa que o país de origem da música está associado a cerca de 7,5% da variação nos postos de streams, e que a maior parte da variabilidade vem de outros fatores. O teste de Dunn com correção de Holm mostrou que as músicas do Reino Unido tendem a ter mais streams do que as da Coreia do Sul, Brasil, México, Argentina e Estados Unidos (esta última diferença, com p = 0,028, não se manteve no recorte seguinte). Porto Rico difere de Coreia do Sul, Brasil e México, e a Austrália difere de Brasil e Coreia do Sul. A Coreia do Sul também difere dos Estados Unidos. Os demais pares não apresentaram diferença significativa. O destaque da Austrália deve ser lido com cautela, pois ela tem apenas 14 músicas e não difere dos países de posição intermediária.
 
 <img width="984" height="458" alt="image" src="https://github.com/user-attachments/assets/cdf50719-61fc-4345-b436-04aaca53dad7" />
 
@@ -222,9 +220,7 @@ Este recorte, que inclui 15 países (n = 796 músicas), serviu como análise de 
 
 <img width="975" height="446" alt="image" src="https://github.com/user-attachments/assets/a78087a5-4b6c-4e0b-a460-b9a0f3fc126f" />
 
-Limitações. O país representa a origem da música, e os streams refletem audiência global. Assim, os resultados descrevem o alcance internacional das faixas de cada país, e não o comportamento dos ouvintes locais. A possível repetição de artistas entre as músicas pode violar a suposição de independência do teste. Além disso, fatores como idioma, gênero musical e ano de lançamento não foram controlados. A análise mostra associação, não causalidade.
-
-Conclusão. Desse modo, a análise mostra que o país de origem de uma música influencia, em parte, o quanto ela é ouvida no Spotify. Músicas do Reino Unido, de Porto Rico e da Austrália tendem a acumular mais streams, enquanto as da Coreia do Sul e do Brasil tendem a acumular menos. Os Estados Unidos e o Canadá ficam numa posição intermediária.
+O país representa a origem da música, e os streams refletem audiência global. Assim, os resultados descrevem o alcance internacional das faixas de cada país, e não o comportamento dos ouvintes locais. A possível repetição de artistas entre as músicas pode violar a suposição de independência do teste. Desse modo, a análise mostra que o país de origem de uma música influencia, em parte, o quanto ela é ouvida no Spotify. Músicas do Reino Unido, de Porto Rico e da Austrália tendem a acumular mais streams, enquanto as da Coreia do Sul e do Brasil tendem a acumular menos. Os Estados Unidos e o Canadá ficam numa posição intermediária.
 
 Esse efeito, porém, é moderado: o país explica apenas cerca de 8% da diferença entre as músicas. Os outros 92% dependem de fatores que esta análise não mediu. Por isso, o país sozinho não deve ser usado para prever o sucesso de uma música.
 
@@ -236,92 +232,58 @@ Usar o país como um critério entre vários, e não como o principal, ao avalia
 ### 4.5. Análise do momento de lançamento
 **Pergunta de negócio:** O momento de lançamento (ano e mês) influencia o volume de streams acumulado?
 
-Esta etapa investiga a relação entre o período de lançamento e a quantidade de reproduções acumuladas pelas músicas.
+A análise temporal revelou uma associação negativa forte entre a data completa de lançamento e o volume acumulado de streams, com coeficiente de Spearman de -0.6713. Esse resultado reforça a associação inicialmente identificada entre o ano de lançamento e os streams (-0,68).
 
-As variáveis consideradas são:
+A interpretação indica que músicas lançadas há mais tempo tendem a apresentar maiores volumes acumulados de reproduções. Uma possível explicação é o maior tempo de exposição nas plataformas de streaming, permitindo que essas músicas acumulem reproduções ao longo de um período mais extenso.
 
-- `released_year`: ano de lançamento;
-- `released_month`: mês de lançamento;
-- `streams`: volume acumulado de reproduções.
+Alguns anos apresentam medianas muito elevadas, enquanto outros apresentam valores consideravelmente menores.
 
-A análise está sendo desenvolvida a partir de:
+Alguns destaques visuais:
 
-- Estatísticas descritivas por ano e mês;
-- Comparação das medianas de streams;
-- Visualização da distribuição dos streams ao longo do tempo;
-- Testes de Kruskal-Wallis para comparação entre grupos;
-- Testes post-hoc, caso sejam identificadas diferenças estatisticamente significativas.
+Décadas de 1940 a 1960: as medianas aparecem relativamente baixas e próximas, em comparação com vários anos posteriores.
+Década de 1970: há um pico bastante expressivo, especialmente em torno de 1975.
+Décadas de 1980 a 2010: encontramos oscilações importantes, com vários anos apresentando medianas acima de 1 bilhão de streams.
+Anos mais recentes: observa-se uma redução das medianas, especialmente nos últimos anos representados. O gráfico não apresenta uma queda perfeitamente contínua. Existem anos recentes com medianas elevadas e anos anteriores com medianas menores.
+Isso é importante porque mostra que a relação negativa encontrada por Spearman representa uma tendência geral, e não uma regra válida para todos os anos.
 
-**Ponto de atenção:** músicas lançadas há mais tempo tiveram um período maior para acumular reproduções. Portanto, a diferença de streams entre anos não deve ser interpretada automaticamente como diferença de popularidade ou desempenho.
+Na análise por mês, a correlação de Spearman foi de -0.03, indicando ausência de uma tendência monotônica relevante.
 
-## 5. Principais aprendizados até o momento
+No entanto, janeiro apresenta uma mediana próxima de 627 milhões de streams, enquanto junho apresenta aproximadamente 170 milhões.
 
-A análise exploratória trouxe alguns resultados relevantes:
+Isso sugere que pode haver diferenças entre os meses de lançamento.
 
-- Existe uma forte associação positiva entre a quantidade de playlists no Spotify e o volume de streams.
-- A quantidade de playlists nas plataformas Spotify, Deezer e Apple Music apresenta associação positiva com os streams do Spotify.
-- A simples quantidade de plataformas em que uma música está presente não apresentou associação relevante com os streams, considerando a baixa variação entre os grupos.
-- Foram identificadas diferenças estatisticamente significativas entre as distribuições de streams de diferentes gêneros musicais.
-- Também foram observadas diferenças entre os grupos de países, indicando a necessidade de aprofundar as comparações.
-- O período de lançamento será investigado considerando o possível efeito do tempo de exposição das músicas.
+Os resultados sugerem que o ano de lançamento apresenta uma associação mais expressiva com o volume acumulado de streams do que o mês e o dia considerados isoladamente. As diferenças observadas entre os meses também merecem investigação, especialmente para verificar possíveis padrões sazonais.
 
-## 6. Limitações da análise
+## 5. Conclusões e recomendações de negócio
 
-Algumas limitações devem ser consideradas na interpretação dos resultados:
+A análise exploratória dos dados do Spotify permitiu identificar associações entre características das músicas, presença em plataformas e playlists, informações sobre artistas, gênero musical, país de origem e momento de lançamento com o volume acumulado de streams.
 
-- O volume de streams é acumulado e não representa necessariamente a taxa de reproduções por período.
-- A presença em playlists não comprova uma relação de causalidade com o aumento dos streams.
-- A quantidade de músicas por gênero e país pode ser desigual.
-- A predominância de músicas presentes nas três plataformas limita a comparação entre grupos.
-- Os resultados representam o conjunto de dados analisado e não necessariamente todo o mercado musical.
+Entre os principais resultados, destaca-se a forte associação positiva entre a quantidade de playlists do Spotify e os streams (Spearman = 0.83). Esse resultado indica que músicas presentes em mais playlists tendem a apresentar maior volume de reproduções. Entretanto, não é possível afirmar que a inclusão em playlists, isoladamente, causa o aumento dos streams, pois a popularidade prévia também pode favorecer a entrada das músicas nesses espaços.
 
-## 7. Próximos passos
+A análise dos charts revelou associações positivas, porém fracas, com os streams do Spotify. Já a presença em múltiplas plataformas apresentou pouca capacidade de diferenciar o volume de reproduções nesta amostra, principalmente porque aproximadamente 96% das músicas estavam presentes nas três plataformas analisadas.
 
-As próximas etapas do projeto incluem:
+Em relação às características das músicas, a quantidade de artistas apresentou associação positiva muito fraca com os streams (Spearman = 0.13577), sugerindo que essa variável, isoladamente, não é um indicador relevante de popularidade. Por outro lado, foram identificadas diferenças estatísticas entre gêneros musicais e países de origem. A investigação das músicas com maior volume de streams em cada gênero também mostrou que grandes sucessos estão distribuídos por diferentes estilos musicais, reforçando a importância de considerar tanto o comportamento geral dos gêneros quanto o desempenho individual das faixas.
 
-- Concluir as comparações estatísticas por país;
-- Finalizar a análise temporal por ano e mês de lançamento;
-- Investigar a relação entre quantidade de artistas e streams;
-- Consolidar os principais insights em uma análise orientada ao negócio;
-- Avaliar a possibilidade de desenvolver modelos preditivos para estimar o volume de streams.
+A análise por país identificou diferenças entre as distribuições de streams, com tamanho de efeito moderado, mas mostrou que a origem da música não deve ser utilizada isoladamente para avaliar seu potencial de sucesso. Fatores como gênero, idioma, artista e período de lançamento também podem estar relacionados ao desempenho.
 
-## 8. Estrutura do repositório
+Por fim, a análise temporal apresentou uma associação negativa forte entre a data de lançamento e os streams acumulados (Spearman = -0.6713). Esse resultado sugere que músicas lançadas há mais tempo tendem a acumular mais reproduções, possivelmente devido ao maior período de exposição nas plataformas. A análise mensal também identificou diferenças entre as distribuições dos meses, embora não tenha sido observada uma tendência monotônica relevante ao longo do calendário.
 
-A estrutura planejada para organização do projeto é:
+### Recomendações para o negócio
 
-```text
-spotify-data-analysis/
-│
-├── data/
-│   └── README.md
-│
-├── notebooks/
-│   ├── 01_exploratory_data_analysis.ipynb
-│   ├── 02_playlist_streams_analysis.ipynb
-│   ├── 03_platforms_analysis.ipynb
-│   ├── 04_genre_country_analysis.ipynb
-│   └── 05_release_date_analysis.ipynb
-│
-├── images/
-│   └── graficos/
-│
-├── README.md
-│
-└── requirements.txt
-```
+Com base nos resultados, algumas iniciativas podem ser consideradas:
 
-*Observação: a estrutura é uma proposta de organização e pode ser adaptada conforme a evolução do projeto.*
+- **Curadoria de playlists:** avaliar a inclusão de músicas com histórico expressivo de streams, considerando também a aderência ao público e à proposta da playlist.
+- **Diversificação musical:** explorar diferentes gêneros, uma vez que músicas de grande alcance foram identificadas em estilos variados.
+- **Análise de artistas e faixas:** considerar o desempenho individual das músicas, evitando decisões baseadas exclusivamente no gênero ou na quantidade de artistas.
+- **Estratégia de divulgação:** avaliar a presença em playlists e charts como indicadores complementares de visibilidade, sem interpretá-los como garantia de sucesso.
+- **Planejamento de lançamentos:** investigar possíveis padrões sazonais e considerar o tempo de exposição ao comparar o desempenho de músicas lançadas em períodos diferentes.
 
-## 9. Considerações finais
+### Limitações e próximos passos
 
-Este projeto representa uma aplicação prática de Análise Exploratória de Dados e Estatística para investigar padrões de consumo musical.
+Os resultados representam associações observadas em uma amostra específica e não demonstram relações de causa e efeito. A variável `streams` representa reproduções acumuladas no Spotify, não o desempenho global em todas as plataformas.
 
-Mais do que identificar quais músicas possuem maior volume de reproduções, o objetivo é compreender quais características estão associadas à popularidade e como essas informações podem contribuir para decisões estratégicas no mercado musical.
+Também foram identificadas limitações relacionadas à distribuição desigual das observações entre gêneros, países e períodos de lançamento, além de possíveis inconsistências na classificação de alguns gêneros musicais.
 
-A análise também permite exercitar conceitos importantes de preparação de dados, visualização, correlação, testes de hipóteses e interpretação estatística.
+Como evolução do projeto, recomenda-se desenvolver modelos de regressão para investigar a contribuição conjunta das variáveis sobre os streams, utilizando transformação logarítmica da variável resposta e controlando fatores como ano de lançamento, gênero, país e presença em playlists. Também seria interessante avaliar a importância das variáveis e comparar o desempenho dos modelos.
 
----
-
-**Projeto em desenvolvimento.**
-
-Desenvolvido com Python e Pandas no ambiente Databricks.
+Conclui-se que a popularidade de uma música é um fenômeno multifatorial. A presença em playlists, o gênero, o país de origem e o momento de lançamento oferecem informações relevantes, mas nenhum desses fatores, isoladamente, é suficiente para explicar o volume acumulado de streams.
