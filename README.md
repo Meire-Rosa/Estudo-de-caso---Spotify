@@ -287,3 +287,6 @@ Também foram identificadas limitações relacionadas à distribuição desigual
 Como evolução do projeto, recomenda-se desenvolver modelos de regressão para investigar a contribuição conjunta das variáveis sobre os streams, utilizando transformação logarítmica da variável resposta e controlando fatores como ano de lançamento, gênero, país e presença em playlists. Também seria interessante avaliar a importância das variáveis e comparar o desempenho dos modelos.
 
 Conclui-se que a popularidade de uma música é um fenômeno multifatorial. A presença em playlists, o gênero, o país de origem e o momento de lançamento oferecem informações relevantes, mas nenhum desses fatores, isoladamente, é suficiente para explicar o volume acumulado de streams.
+
+O dashboard com esse desafio pode ser encontrado no link: https://dbc-3bca4925-e5bb.cloud.databricks.com/dashboardsv3/01f1e75cc8ec180d96124740d5d0b7d6/published?o=3029135621213091
+
